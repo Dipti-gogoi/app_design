@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>app mockup</title>
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+		<link rel="stylesheet" type="text/css" href="styles/info-page.css">
+		<link rel="stylesheet" type="text/css" href="styles/settings.css">
+	</head>
+	<body>
+		<!-- Header & menu -->
+		<nav>
+			<div class="logo">
+				<a href="index.html"><img src="images/bvc-logo-small.jpg"></a>
+			</div>
+			<div class="menu">
+				<button id="menu-button" class="menu-icon" onclick="Menu()">menu</button>
+				<div id="menu-content" class="menu-content">
+					<a href="start.html">Getting Started</a>
+					<a href="notification.html">Notifications</a>
+					<a href="messages.html">Messages</a>
+					<a href='map.html'>School Map</a>
+					<a href='learning-resources.html'>Learning Resources</a>
+					<a href="emergency-info.html">Emergency Contacts</a>
+					<a href="privacy.html">Privacy & Policies</a>
+					<a href='settings.html'>Settings</a>
+				</div>
+			</div>
+		</nav>
+
+
+		<!-- Main body -->
+		<section class="main">
+			<form>
+				<label for="language">App Language</label>
+				<input list="languages" type="text" name="language">
+				<datalist id="languages">
+					<option value="العربية" title="Arabic" />
+					<option value="Dansk" title="Danish" />
+					<option value="Deutsch" title="German" />
+					<option value="English" title="English" />
+					<option value="Ελληνικά" title="Greek" />
+					<option value="हिंदी" title="Hindi" />
+					<option value="Español" title="Spanish" />
+					<option value="فارسی" title="Persian" />
+					<option value="Français" title="French" />
+					<option value="한국어" title="Korean" />
+					<option value="Bahasa Indonesia" title="Indonesian" />
+					<option value="Italiano" title="Italian" />
+					<option value="עברית" title="Hebrew" />
+					<option value="Nederlands" title="Dutch" />
+					<option value="日本語" title="Japanese" />
+					<option value="Norsk" title="Norwegian" />
+					<option value="Polski" title="Polish" />
+					<option value="Português" title="Portuguese" />
+					<option value="中文" title="Chinese" />
+				</datalist>
+			</form>
+		</section>
+
+
+
+		<!-- Footer -->
+		<footer>
+			<ul>
+				<li><a href="schedule.html">schedule</a></li>
+				<li><a href="index.html">home</a></li>
+				<li><a href="profile.html">profile</a></li>
+			</ul>
+		</footer>
+		<script src="app.js"></script>
+	</body>
+</html>

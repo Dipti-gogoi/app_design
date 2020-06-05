@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>app mockup</title>
+		<link rel="stylesheet" type="text/css" media="only screen and (max-device-width:500px)" href="styles/mobile-default.css">
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+		<link rel="stylesheet" type="text/css" href="styles/news.css">
+	</head>
+	<body>
+
+		<!-- Header & menu -->
+		<nav>
+			<div class="logo">
+				<a href="index.html"><img src="images/bvc-logo-small.jpg"></a>
+			</div>
+			<div class="menu">
+				<button id="menu-button" class="menu-icon" onclick="Menu()">menu</button>
+				<div id="menu-content" class="menu-content">
+					<a href="start.html">Getting Started</a>
+					<a href="#" onclick="NotReady()">Notifications</a>
+					<a href="#" onclick="NotReady()">Messages</a>
+					<a href='map.html'>School Map</a>
+					<a href='learning-resources.html'>Learning Resources</a>
+					<a href="emergency-info.html">Emergency Contacts</a>
+					<a href="privacy.html">Privacy & Policies</a>
+					<a href='settings.html'>Settings</a>
+				</div>
+			</div>
+		</nav>
+
+
+		<!-- Main content & cards -->
+		<section class="main">
+			<div class="card event">
+				<div class="card-header">
+					<div class="user-image"><img src="images/profile-2.png"></div>
+					<div class="username">Reggie McTeacher</div>
+					<div class="timestamp">10-04-19 10:34am</div>
+				</div>
+				<div class="card-content">
+					MGMT1402 cancelled this afternoon. Please don't show up!
+				</div>
+				<div class="card-footer">
+					<ul>
+						<li><img src="images/comment.svg"> 13</li>
+						<li><img src="images/heart.png"> 427</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card ad">
+				<div class="card-header">
+					<div class="user-image"></div>
+					<div class="sponsor">Reggie's Coffee House</div>
+					<div class="timestamp">ad</div>
+				</div>
+				<div class="card-content">
+					<img src="images/coffee-ad.jpg">
+				</div>
+				<div class="card-footer">
+					<ul>
+						<li><img src="images/comment.svg"> 213</li>
+						<li><img src="images/heart.png"> 321</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card news">
+				<div class="card-header">
+					<div class="user-image"><img src="images/bvc-logo.jpg"></div>
+					<div class="username">Campus news</div>
+					<div class="timestamp">10-04-19 9:03am</div>
+				</div>
+				<div class="card-content">
+					<table>
+						<tr>
+							<th colspan="2">Important Dates</th>
+						</tr>
+						<tr>
+							<td>April 19</td>
+							<td>College closed for statutory holiday – Good Friday</td>
+						</tr>
+						<tr>
+							<td>April 22</td>
+							<td>College closed – Easter Monday</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>Last day to empty out lockers</td>
+						</tr>
+					</table>
+					<p>A student health survey invitation was sent to your MyBVC email account in March. This National College Health Assessment Survey helps Learner Success Services to design programs and initiatives to benefit students like you. Please look for the survey invitation in your email and complete the survey today!</p>
+				</div>
+				<div class="card-footer">
+					<ul>
+						<li><img src="images/comment.svg"> 46</li>
+						<li><img src="images/heart.png"> 27</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card discussion">
+				<div class="card-header">
+					<div class="user-image"><img src="images/profile-1.png"></div>
+					<div class="username"></div>
+					<div class="timestamp">10-04-19 8:52pm</div>
+				</div>
+				<div class="card-content">
+					Anyone available to tutor JS this week?
+				</div>
+				<div class="card-footer">
+					<ul>
+						<li><img src="images/comment.svg"> 1</li>
+						<li><img src="images/heart.png"> 13</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card discussion">
+				<div class="card-header">
+					<div class="user-image">
+						<img src="images/bvc-logo.jpg">
+					</div>
+					<div class="username">Campus News</div>
+					<div class="timestamp">10-04-19 8:50am</div>
+				</div>
+				<div class="card-content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius magna imperdiet nibh commodo, quis fermentum elit varius. Curabitur suscipit venenatis vulputate. Quisque ut volutpat elit, id lacinia eros.
+				</div>
+				<div class="card-footer">
+					<ul>
+						<li><img src="images/comment.svg"> 0</li>
+						<li><img src="images/heart.png"> 1</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card event">
+				<div class="card-header">
+					<div class="user-image"></div>
+					<div class="username"></div>
+					<div class="timestamp">10-04-19 12:34am</div>
+				</div>
+				<div class="card-content">
+					Hallo! Kannst du Deutsch sprechen?
+				</div>
+				<div class="card-footer">
+					<ul>
+						<li><img src="images/comment.svg"> 23</li>
+						<li><img src="images/heart.png"> 87</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card event">
+				<div class="card-header">
+					<div class="user-image"><img src="images/profile-3.png"></div>
+					<div class="username">Bake sale in Cafeteria!</div>
+					<div class="timestamp">09-04-19 10:27pm</div>
+				</div>
+				<div class="card-content">
+					<img id="brownie" src="images/brownie.jpg">
+				</div>
+				<div class="card-footer">
+					<ul>
+						<li><img src="images/comment.svg"> 1543</li>
+						<li><img src="images/heart.png"> 2080</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card news">
+				<div class="card-header">
+					<div class="user-image"><img src="images/bvc-logo.jpg"></div>
+					<div class="username">Campus news</div>
+					<div class="timestamp">09-04-19 9:08pm</div>
+				</div>
+				<div class="card-content">
+					Phasellus eu posuere tortor.
+				</div>
+				<div class="card-footer">
+					<ul>
+						<li><img src="images/comment.svg"> 433</li>
+						<li><img src="images/heart.png"> 1767</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!-- Submission button -->
+		<button class="post" onclick="NotReady()">+</button>
+
+		<!-- "Not ready" notice -->
+		<div id="not-ready">
+			<p>This feature has not been implemented for this demonstration.</p>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<ul>
+				<li><a href="schedule.html">schedule</a></li>
+				<li><a href="index.html">home</a></li>
+				<li><a href="profile.html">profile</a></li>
+			</ul>
+		</footer>
+
+		<script src="app.js"></script>
+	</body>
+</html>

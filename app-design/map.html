@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>app mockup</title>
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+		<link rel="stylesheet" type="text/css" href="styles/schedule.css">
+	</head>
+	<body>
+		<!-- Header & menu -->
+		<nav>
+			<div class="logo">
+				<a href="index.html"><img src="images/bvc-logo-small.jpg"></a>
+			</div>
+			<div class="menu">
+				<button id="menu-button" class="menu-icon" onclick="Menu()">menu</button>
+				<div id="menu-content" class="menu-content">
+					<a href="start.html">Getting Started</a>
+					<a href="#" onclick="NotReady()">Notifications</a>
+					<a href="#" onclick="NotReady()">Messages</a>
+					<a href='map.html'>School map</a>
+					<a href='learning-resources.html'>Learning Resources</a>
+					<a href="emergency-info.html">Emergency Contacts</a>
+					<a href="privacy.html">Privacy & Policies</a>
+					<a href='Settings.html'>Settings</a>
+				</div>
+			</div>
+		</nav>
+
+
+		<!-- Main body -->
+		<section class="main">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.3339541228565!2d-114.05818598428002!3d51.04692117956203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717ad00ad231a9%3A0x34c6c179aae00af8!2sBow+Valley+College%2C+South+Campus!5e0!3m2!1sen!2sca!4v1555111977436!5m2!1sen!2sca" width="500" height="600" frameborder="0"></iframe>
+		</section>
+
+		<!-- "Not ready" notice -->
+		<div id="not-ready">
+			<p>This feature has not been implemented for this demonstration.</p>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<ul>
+				<li><a href="schedule.html">schedule</a></li>
+				<li><a href="index.html">home</a></li>
+				<li><a href="profile.html">profile</a></li>
+			</ul>
+		</footer>
+		<script src="app.js"></script>
+	</body>
+</html>

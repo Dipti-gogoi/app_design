@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>app mockup</title>
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+		<link rel="stylesheet" type="text/css" href="styles/info-page.css">
+	</head>
+	<body>
+		<!-- Header & menu -->
+		<nav>
+			<div class="logo">
+				<a href="index.html"><img src="images/bvc-logo-small.jpg"></a>
+			</div>
+			<div class="menu">
+				<button id="menu-button" class="menu-icon" onclick="Menu()">menu</button>
+				<div id="menu-content" class="menu-content">
+					<a href="start.html">Getting Started</a>
+					<a href="#" onclick="NotReady()">Notifications</a>
+					<a href='#' onclick="NotReady()">Messages</a>
+					<a href='map.html'>School Map</a>
+					<a href='learning-resources.html'>Learning Resources</a>
+					<a href="emergency-info.html">Emergency Contacts</a>
+					<a href="privacy.html">Privacy & Policies</a>
+					<a href='Settings.html'>Settings</a>
+				</div>
+			</div>
+		</nav>
+
+
+		<!-- Main body -->
+		<section class="main">
+			<table>
+				<tr>
+					<th colspan="2">Urgent</th>
+				</tr>
+
+				<tr>
+					<td>Police</td>
+					<td><a href="911">911</a></td>
+				</tr>
+				<tr>
+					<td>Medical</td>
+					<td><a href="tel:911">911</a></td>
+				</tr>
+				<tr>
+					<td>Fire</td>
+					<td><a href="tel:911">911</a></td>
+				</tr>
+
+				<tr>
+					<th colspan="2">Non-urgent</th>
+				</tr>
+				<tr>
+					<td>Non-urgent police</td>
+					<td><a href="tel:403-266-1234">403-266-1234</a></td>
+				</tr>
+				<tr>
+					<td>Non-urgent medical</td>
+					<td><a href="tel:811">811</a></td>
+				</tr>
+				<tr>
+					<td>Non-urgent fire department</td>
+					<td><a href="tel:+1-311">311</a></td>
+				</tr>
+				<tr>
+					<td>BVC campus security</td>
+					<td><a href="tel:+1-403-410-1713">403-410-1713</a></td>
+				</tr>
+				<tr>
+					<td>Poison and drug information</td>
+					<td><a href="tel:+1-800-332-1414">800-332-1414</a></td>
+				</tr>
+				<tr>
+					<td>Alberta Mental Health helpline</td>
+					<td><a href="+1-877-303-2642">877-303-2642</a></td>
+				</tr>
+				<tr>
+					<td>Suicide Prevention Centre</td>
+					<td><a href="tel:+1-403-245-3900">403-245-3900</a></td>
+				</tr>
+				<tr>
+					<td>Community, social, health services</td>
+					<td><a href="tel:211">211</a></td>
+				</tr>
+				<tr>
+					<td>City bylaw</td>
+					<td><a href="tel:311">311</a></td>
+				</tr>
+
+				<tr>
+					<th colspan="2">Pets and animals</th>
+				</tr>
+				<tr>
+					<td>Pet poison helpline</td>
+					<td><a href="tel:+1-800-213-6680">800-213-6680</a></td>
+				</tr>
+				<tr>
+					<td>Animal Poison Control Centre</td>
+					<td><a href="tel:888-426-4435">888-426-4435</a></td>
+				</tr>
+			</table>
+		</section>
+
+		<!-- "Not ready" notice -->
+		<div id="not-ready">
+			<p>This feature has not been implemented for this demonstration.</p>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<ul>
+				<li><a href="schedule.html">schedule</a></li>
+				<li><a href="index.html">home</a></li>
+				<li><a href="profile.html">profile</a></li>
+			</ul>
+		</footer>
+		<script src="app.js"></script>
+	</body>
+</html>

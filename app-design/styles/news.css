@@ -1,0 +1,158 @@
+/* ========== Main news feed ========== */
+
+ /* Submission button */
+ .post {
+ 	height: 50px;
+ 	width: 50px;
+ 	background-color: #1E7DBC;
+ 	border: none;
+ 	border-radius: 50%;
+ 	position: fixed;
+ 	bottom: 68px;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 10px;
+	cursor: pointer;
+ }
+ .post:hover {
+ 	background-color: #308ac5;
+ }
+ .post:focus {
+ 	outline: 0;
+ }
+
+
+ /* ======== Card header, cards, card content ======== */
+.card-header {
+	background-color: white;
+	padding: 4px 0 0;
+}
+.card {
+	margin: 15px auto;
+	border: 10px solid white;
+	border-radius: 3px;
+	box-shadow: 0 5px 4px 1px rgba(0,0,0, 0.2);
+	/*right, vertical, blur, size, colour*/
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+/* Card types */
+.discussion {
+	line-height: 1.1em;
+	height: 150px;
+}
+.event {
+	height: 200px;
+}
+
+/* Card details */ 
+.card table {
+	font-size: 0.95rem;
+}
+.card th {
+	text-align: left;
+}
+.card tr:odd {
+	padding-right; 
+}
+
+/*========== Users ========== */
+.user-image {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: lightgrey;
+	display: inline-block;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+.user-image > img[src*="profile"] {
+	width: 200%;
+	position: relative;
+	right: 14px;
+	bottom: 3px;
+}
+.user-image > img[src*="bvc-logo"] {
+	width: 100%;
+}
+
+.username {
+	text-align: center;
+	height: 40px;
+	position: relative;
+	top: -13px;
+	font-size: 0.8rem;
+}
+
+.username, .sponsor {
+	display: inline;
+	font-weight: bold; 
+ }
+
+ .timestamp {
+	display: inline;
+	font-size: x-small;
+	color: grey;
+	float: right;
+}
+
+
+/* ======== Card footer ======== */
+.card-footer {
+    bottom: 0;
+    position: absolute;
+    background: white;
+    height: 35px;
+    color: #808080;
+    font-size: 0.9rem;
+    z-index: 0;
+}
+.card-footer > ul {
+	display: flex;
+    font-size: 0.8rem;
+    justify-content: space-evenly;
+    margin: 2px;
+    width: 300px;
+}
+.card-footer > ul > li {
+	list-style: none;
+}
+.card-footer > ul > li > img {
+	height: 1.75rem;
+}
+
+/* Footer comments and likes */
+.card-footer li {
+	cursor: pointer;
+}
+
+
+/* ======== Images ======== */
+#brownie {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+ /* ======== Ads ======== */
+ .ad {
+ 	padding: 0;
+ 	border: 0;
+ }
+ .ad > .card-header {
+ 	padding: 10px 10px 4px;
+ }
+.ad > .card-header > .user-image {
+	display: none;
+}
+.ad > .card-content > img {
+	display: block;
+    margin: 0 auto;
+    width: 127%;
+}

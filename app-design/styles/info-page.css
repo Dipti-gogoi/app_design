@@ -1,0 +1,25 @@
+/* ======== Main content ======== */
+.main {
+	padding: 10px 35px; 
+}
+
+h3 {
+	text-align: center;
+}
+
+
+/* ======== Tables ======== */
+table a {
+	color: grey;
+}
+tr {
+	height: 30px;
+	border: 1px solid lightgrey;
+}
+th {
+	padding-top: 35px;
+}
+td {
+	padding: 20px 10px 0 0;
+	border-bottom: 1px solid lightgrey;
+}

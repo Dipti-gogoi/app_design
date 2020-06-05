@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>app mockup</title>
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+		<link rel="stylesheet" type="text/css" href="styles/schedule.css">
+	</head>
+	<body>
+		<!-- Header & menu -->
+		<nav>
+			<div class="logo">
+				<a href="index.html"><img src="images/bvc-logo-small.jpg"></a>
+			</div>
+			<div class="menu">
+				<button id="menu-button" class="menu-icon" onclick="Menu()">menu</button>
+				<div id="menu-content" class="menu-content">
+					<a href="start.html">Getting Started</a>
+					<a href="#" onclick="NotReady()">Notifications</a>
+					<a href="#" onclick="NotReady()">Messages</a>
+					<a href='map.html'>School Map</a>
+					<a href='learning-resources.html'>Learning Resources</a>
+					<a href="emergency-info.html">Emergency Contacts</a>
+					<a href="privacy.html">Privacy & Policies</a>
+					<a href='settings.html'>Settings</a>
+				</div>
+			</div>
+		</nav>
+		
+
+
+		<!-- Main body -->
+		<section class="main">
+			<iframe src="https://calendar.google.com/calendar/embed?src=mybvc.ca_ohfc2fnoomc26i6l1uj9h0oj20%40group.calendar.google.com&ctz=America%2FEdmonton" frameborder="0" scrolling="no"></iframe>
+		</section>
+
+
+		<!-- "Not ready" notice -->
+		<div id="not-ready">
+			<p>This feature has not been implemented for this demonstration.</p>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<ul>
+				<li><a href="schedule.html">schedule</a></li>
+				<li><a href="index.html">home</a></li>
+				<li><a href="profile.html">profile</a></li>
+			</ul>
+		</footer>
+		<script src="app.js"></script>
+	</body>
+</html>
